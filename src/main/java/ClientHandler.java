@@ -1,4 +1,3 @@
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.*;
 import java.net.*;
@@ -34,7 +33,7 @@ class ClientHandler extends Thread
         } catch (IOException e) {
             e.printStackTrace();
         }
-        worldStat.id.add(clid);
+        //worldStat.id.add(clid);
         worldStat.X.add(new Integer(0));
         worldStat.Y.add(new Integer(0));
         worldStat.face.add(new Character('n'));
